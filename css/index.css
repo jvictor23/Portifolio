@@ -23,6 +23,22 @@
     text-align: center;
 }
 
+.card-deck .card > a{
+    text-decoration: none;
+    color : black;
+}
+
+.card > a >img {
+    margin-top: 5px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.card:hover{
+    top: -5px;
+    box-shadow: solid;
+}
+
 
 @media screen and (max-width: 576px) {
     .sideleft {

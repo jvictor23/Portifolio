@@ -1,0 +1,14 @@
+.card{
+    cursor: pointer;
+}
+
+.card-deck .card > a{
+    text-decoration: none;
+    color : black;
+}
+
+.card > a >img {
+    margin-top: 5px;
+    height: 400px;
+    object-fit: contain;
+}
