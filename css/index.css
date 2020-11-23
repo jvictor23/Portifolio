@@ -1,0 +1,39 @@
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .sideleft{
+      flex-direction: row-reverse;
+  }
+
+  .sideright{
+      flex-direction: row;
+  }
+
+  .sideright > div{
+    text-align: start;
+}
+
+.title{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 576px) {
+    .sideleft {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .sideright{
+        justify-content: center;
+    }
+
+    .sideright > div{
+        text-align: center;
+    }
+  }
